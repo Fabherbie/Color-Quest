@@ -9,26 +9,19 @@
 </head>
 
 <body>
-    <h1>🎨 Guess the Color!🎨</h1>
+    <h1>🎨 Guess the Color! 🎨</h1>
     <p>I'm thinking 🤔 of a color. Try to guess it.</p>
     <p>Enter a color and I'll tell you if you're getting warmer or colder.</p>
+    <p style="color: blue; font-size: x-large;">Let's play!</p>
+
 
     <div id="colorBox" data-testid="colorBox"></div>
 
     <p id="gameInstructions" data-testid="gameInstructions">Pick the correct color! </p>
 
-    <!-- <input type="text" id="colorInput" data-testid="colorInput" placeholder="Enter your guess"> -->
+    <div id="colorOptions"></div>
 
-    <div id="colorOptions">
-        <button id="redButton" data-testid="redButton" class="colorButton"></button>
-        <button id="blueButton" data-testid="blueButton" class="colorButton"></button>
-        <button id="yellowButton" data-testid="yellowButton" class="colorButton"></button>
-        <button id="purpleButton" data-testid="purpleButton" class="colorButton"></button>
-        <button id="orangeButton" data-testid="orangeButton" class="colorButton"></button>
-        <button id="pinkButton" data-testid="pinkButton" class="colorButton"></button>
-    </div>
-
-    <p id="gameStatus" data-testid="gameStatus"></p>
+    <p id="gameStatus" data-testid="gameStatus">Lives: 3</p>
 
     <p>Score: <span id="score" data-testid="score">0</span></p>
 
@@ -37,8 +30,6 @@
     </div>
 
     <script src="script.js"></script>
-
-
 </body>
 
 </html>
