@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Quest</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>🎨 Guess the Color!🎨</h1>
+    <p>I'm thinking 🤔 of a color. Try to guess it.</p>
+    <p>Enter a color and I'll tell you if you're getting warmer or colder.</p>
+
+    <div id="colorBox" data-testid="colorBox"></div>
+
+    <p id="gameInstructions" data-testid="gameInstructions">Pick the correct color! </p>
+
+    <!-- <input type="text" id="colorInput" data-testid="colorInput" placeholder="Enter your guess"> -->
+
+    <div id="colorOptions">
+        <button id="redButton" data-testid="redButton" class="colorButton"></button>
+        <button id="blueButton" data-testid="blueButton" class="colorButton"></button>
+        <button id="yellowButton" data-testid="yellowButton" class="colorButton"></button>
+        <button id="purpleButton" data-testid="purpleButton" class="colorButton"></button>
+        <button id="orangeButton" data-testid="orangeButton" class="colorButton"></button>
+        <button id="pinkButton" data-testid="pinkButton" class="colorButton"></button>
+    </div>
+
+    <p id="gameStatus" data-testid="gameStatus"></p>
+
+    <p>Score: <span id="score" data-testid="score">0</span></p>
+
+    <div class="container">
+        <button id="newGameButton" data-testid="newGameButton">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
